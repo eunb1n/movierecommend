@@ -82,3 +82,4 @@ def find_sim_movie(df, sorted_ind, title_name, top_n=10):
 
 similar_movies=find_sim_movie(movies_df, genre_sim_sorted_ind, 'No Country for Old Men', 10)
 similar_movies[['title', 'vote_count', 'weighted_vote']]
+
